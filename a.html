@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" id="alert">
+
+</div>
+<div class="container mt-3 p-3 jumbotron">
+    <h1 class="mb-4">class student info</h1>
+    <form id="student_form">
+        <div class="form-group">
+          <input type="text" class="form-control" id="student_id" aria-describedby="emailHelp" placeholder="student id">  
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="student_name" placeholder="student name">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="student_grade" placeholder="student grade">
+        </div>
+        <button type="submit" class="form-control btn btn-primary" id="add">add</button>
+      </form>
+</div>
+<div class="container">
+    <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">student id</th>
+            <th scope="col">student name</th>
+            <th scope="col">student grade</th>
+            <th scope="col">delete</th>
+        </tr>
+    </thead>
+    <tbody id="book_list">
+        
+    </tbody>
+  </table>
+</div>
+
+<script src="a.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
